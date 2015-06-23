@@ -10,14 +10,16 @@ package agmanager.ui.button;
  * @author kaeru
  */
 public class RunButton {
-      public RunButton(){
-      }
+    private final String javaAgentRun = "java -cp $CLASSPATH $CETA_HOME/rda."; 
+    
+    public RunButton(){
+    }
       
-      public void command(){
-          System.out.println("Test Out Run!!");
-          System.out.println("");
-          System.err.println("Test Err Run!!");
-          System.out.println("");
-      }
+    public void command(){
+        System.out.println("Test Out Run!!");
+        System.out.println("");
+        System.err.println("Test Err Run!!");
+        System.err.println("");
+    }
 }
  
